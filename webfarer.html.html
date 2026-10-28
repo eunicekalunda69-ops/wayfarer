@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://127.0.0.1:5500/#fleet -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f6f7f4">
+    <meta name="description" content="Good cars, fair prices, and a little more freedom. Find your next rental with Wayfarer.">
+    <title>Wayfarer — Car hire made easy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Wayfarer — Car hire made easy_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Wayfarer — Car hire made easy_files/styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <a class="brand" href="http://127.0.0.1:5500/#home" aria-label="Wayfarer home"><span class="brand-mark">w</span> wayfarer<span class="brand-dot">.</span></a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="http://127.0.0.1:5500/#fleet">Our cars</a>
+            <a href="http://127.0.0.1:5500/#how-it-works">How it works</a>
+            <a href="http://127.0.0.1:5500/#footer">Help</a>
+        </nav>
+        <a class="nav-cta" href="http://127.0.0.1:5500/#fleet">Find a car <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT GOOD DAY STARTS HERE</p>
+                <h1>Good cars.<br><em>Good to go.</em></h1>
+                <p class="hero-text">Little city run or a long way round. Find a car that fits your plans, without the big price tag.</p>
+                <div class="hero-proof"><div class="proof-avatars"><span>J</span><span>M</span><span>A</span><span>+</span></div><p><strong>4.9/5</strong> from 2,400+ happy drivers</p></div>
+            </div>
+            <div class="hero-photo" role="img" aria-label="A compact car ready for a road trip">
+                <div class="photo-tag"><span class="tag-dot"></span> A better way to get there</div>
+                <div class="photo-caption"><span>01 / 04</span><span>Made for the miles ahead</span></div>
+            </div>
+            <form class="search-panel" id="search-form">
+                <label class="search-field location-field">
+                    <span class="field-icon">⌖</span><span class="field-copy"><span class="field-label">Pick-up location</span><input id="location" type="text" placeholder="City, airport or postcode" value="Nairobi, Kenya"></span>
+                </label>
+                <label class="search-field date-field">
+                    <span class="field-icon">▦</span><span class="field-copy"><span class="field-label">Pick-up date</span><input id="start-date" type="date" min="2026-10-29"></span>
+                </label>
+                <label class="search-field days-field">
+                    <span class="field-icon">◷</span><span class="field-copy"><span class="field-label">How long?</span><span class="day-control"><button type="button" class="stepper" id="days-minus" aria-label="Remove one day">−</button><input id="days" type="number" value="3" min="1" max="30" aria-label="Number of rental days"><span>days</span><button type="button" class="stepper" id="days-plus" aria-label="Add one day">+</button></span></span>
+                </label>
+                <button class="search-button" type="submit">See available cars <span aria-hidden="true">→</span></button>
+            </form>
+        </section>
+
+        <section class="fleet-section" id="fleet">
+            <div class="section-heading">
+                <div><p class="eyebrow"><span class="eyebrow-line"></span> THE GOOD-TO-GO COLLECTION</p><h2>Find your kind of <em>drive.</em></h2></div>
+                <p class="section-note">No flashy supercars. Just ten lovely, dependable rides at prices that make sense.</p>
+            </div>
+            <div class="fleet-toolbar">
+                <div class="filters" role="group" aria-label="Filter cars by type">
+                    <button class="filter-button" data-filter="all">All cars <span>10</span></button>
+                    <button class="filter-button" data-filter="City">City</button>
+                    <button class="filter-button" data-filter="Compact">Compact</button>
+                    <button class="filter-button active" data-filter="Family">Family</button>
+                    <button class="filter-button" data-filter="SUV">SUV</button>
+                </div>
+                <label class="sort-control">Sort by <select id="sort"><option value="popular">Most popular</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option></select></label>
+            </div>
+            <div class="results-line"><span id="result-count">2 cars ready for the road</span><span>Prices in Kenyan shillings · basic cover included <b>ⓘ</b></span></div>
+            <p class="availability-disclaimer">Availability is saved in this browser only. Shared online booking requires a connected booking service.</p>
+            <div class="car-grid" id="car-grid" aria-live="polite"><article class="car-card" style="--card-order:0">
+                    <div class="car-image-wrap"><img class="car-image" src="./Wayfarer — Car hire made easy_files/photo-1511919884226-fd3cad34687c" alt="White Toyota Corolla" loading="lazy"><span class="car-badge">Great on fuel</span><span class="car-type">Family</span></div>
+                    <div class="car-details"><div class="car-title-row"><div><h3>Toyota Corolla</h3><p class="car-meta">Automatic <span>·</span> 5 seats</p></div><span class="rating">★ 4.9</span></div>
+                    <div class="price-row"><div><strong>KSh 4,900</strong><span> / day</span><p class="trip-total">KSh 14,700 total · 3 days</p><p class="availability-status is-available">Available for these dates</p></div><button class="select-car" data-car="5" aria-label="Choose Toyota Corolla">Choose <span>→</span></button></div></div>
+                </article><article class="car-card" style="--card-order:1">
+                    <div class="car-image-wrap"><img class="car-image" src="./Wayfarer — Car hire made easy_files/photo-1502877338535-766e1452684a" alt="Blue Skoda Octavia" loading="lazy"><span class="car-badge">Extra boot space</span><span class="car-type">Family</span></div>
+                    <div class="car-details"><div class="car-title-row"><div><h3>Skoda Octavia</h3><p class="car-meta">Manual <span>·</span> 5 seats</p></div><span class="rating">★ 4.9</span></div>
+                    <div class="price-row"><div><strong>KSh 5,200</strong><span> / day</span><p class="trip-total">KSh 15,600 total · 3 days</p><p class="availability-status is-available">Available for these dates</p></div><button class="select-car" data-car="6" aria-label="Choose Skoda Octavia">Choose <span>→</span></button></div></div>
+                </article></div>
+        </section>
+
+        <section class="how-section" id="how-it-works">
+            <div class="how-title"><p class="eyebrow"><span class="eyebrow-line"></span> EASY AS 1, 2, DRIVE</p><h2>Less admin.<br><em>More adventure.</em></h2></div>
+            <div class="steps">
+                <article class="step"><span class="step-number">01</span><span class="step-icon">⌕</span><h3>Pick your wheels</h3><p>Choose from our hand-picked, everyday-friendly cars.</p></article>
+                <article class="step"><span class="step-number">02</span><span class="step-icon">▤</span><h3>Book in a few taps</h3><p>Clear prices up front. No surprise fees at the counter.</p></article>
+                <article class="step"><span class="step-number">03</span><span class="step-icon">↗</span><h3>Get out there</h3><p>Pick up your keys and enjoy the freedom of the open road.</p></article>
+            </div>
+        </section>
+        <section class="bottom-callout"><div><p class="eyebrow">A LITTLE SPACE TO GO PLACES</p><h2>Your plans called.<br><em>They need a car.</em></h2></div><a href="http://127.0.0.1:5500/#fleet" class="callout-button">Browse all cars <span>→</span></a></section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-identity"><a class="brand footer-brand" href="http://127.0.0.1:5500/#home"><span class="brand-mark">w</span> wayfarer<span class="brand-dot">.</span></a><p>Good cars for wherever life takes you.</p></div>
+        <div class="footer-contact"><a href="mailto:eunicekalunda69@gmail.com">eunicekalunda69@gmail.com</a><a href="tel:+254792386196">0792386196</a></div>
+        <div class="footer-payment"><span>M-Pesa payments</span><a href="tel:+254792386196">0792386196</a></div>
+        <span class="footer-copyright">© 2026 Wayfarer Car Hire</span>
+    </footer>
+
+    <dialog class="booking-dialog" id="booking-dialog">
+        <button class="dialog-close" id="dialog-close" aria-label="Close booking summary">×</button>
+        <p class="eyebrow"><span class="eyebrow-line"></span> RESERVE YOUR RIDE</p>
+        <h2>Check out <em>and go.</em></h2>
+        <div class="booking-car" id="booking-car"></div>
+        <p class="booking-dates" id="booking-dates"></p>
+        <div class="booking-summary"><span id="booking-days"></span><strong id="booking-total"></strong></div>
+        <p class="dialog-note">Choose a payment option. M-Pesa payments are manual; this page does not process or verify payments.</p>
+        <form id="reservation-form" class="reservation-form">
+            <label>Your name<input name="customer-name" type="text" autocomplete="name" required="" maxlength="80"></label>
+            <label>Phone number<input name="customer-phone" type="tel" autocomplete="tel" required="" placeholder="07xx xxx xxx" pattern="[0-9+() -]{9,16}"></label>
+            <fieldset class="payment-options"><legend>Payment method</legend>
+                <label><input type="radio" name="payment-method" value="mpesa" checked=""><span><strong>M-Pesa</strong><small>Send the total to 0792386196</small></span></label>
+                <label><input type="radio" name="payment-method" value="pickup"><span><strong>Pay on pick-up</strong><small>Pay when collecting the car</small></span></label>
+            </fieldset>
+            <p class="form-error" id="booking-error" role="alert" hidden=""></p>
+            <button class="confirm-button" type="submit">Reserve this car <span>→</span></button>
+        </form>
+        <section class="booking-confirmation" id="booking-confirmation" aria-live="polite" hidden="">
+            <h3>Reservation saved</h3>
+            <p id="confirmation-copy"></p>
+            <p class="dialog-note">This reservation is stored only in this browser and is not sent to the car owner. It does not confirm payment or guarantee the car for other visitors.</p>
+            <button class="confirm-button" type="button" id="confirmation-done">Done</button>
+        </section>
+    </dialog>
+    <script>
+        const cars = [
+            { name: 'Toyota Aygo', type: 'City', seats: 4, transmission: 'Manual', rate: 3200, image: 'photo-1492144534655-ae79c964c9d7', badge: 'City favourite', color: 'Silver' },
+            { name: 'Kia Picanto', type: 'City', seats: 4, transmission: 'Manual', rate: 3400, image: 'photo-1503376780353-7e6692767b70', badge: 'Easy parking', color: 'White' },
+            { name: 'Hyundai i10', type: 'City', seats: 4, transmission: 'Automatic', rate: 3800, image: 'photo-1503736334956-4c8f8e92946d', badge: 'Auto available', color: 'Blue' },
+            { name: 'Volkswagen Polo', type: 'Compact', seats: 5, transmission: 'Manual', rate: 4100, image: 'photo-1549317661-bd32c8ce0db2', badge: 'Most booked', color: 'Grey' },
+            { name: 'Ford Fiesta', type: 'Compact', seats: 5, transmission: 'Manual', rate: 3900, image: 'photo-1552519507-da3b142c6e3d', badge: '', color: 'Red' },
+            { name: 'Toyota Corolla', type: 'Family', seats: 5, transmission: 'Automatic', rate: 4900, image: 'photo-1511919884226-fd3cad34687c', badge: 'Great on fuel', color: 'White' },
+            { name: 'Skoda Octavia', type: 'Family', seats: 5, transmission: 'Manual', rate: 5200, image: 'photo-1502877338535-766e1452684a', badge: 'Extra boot space', color: 'Blue' },
+            { name: 'Nissan Qashqai', type: 'SUV', seats: 5, transmission: 'Manual', rate: 5900, image: 'photo-1519641471654-76ce0107ad1b', badge: 'Room for more', color: 'Black' },
+            { name: 'Dacia Duster', type: 'SUV', seats: 5, transmission: 'Manual', rate: 5500, image: 'photo-1533473359331-0135ef1b58bf', badge: 'Great value', color: 'Green' },
+            { name: 'Renault Captur', type: 'SUV', seats: 5, transmission: 'Automatic', rate: 6200, image: 'photo-1541899481282-d53bffe3c35d', badge: '', color: 'Orange' }
+        ];
+        const grid = document.getElementById('car-grid');
+        const dayInput = document.getElementById('days');
+        const dateInput = document.getElementById('start-date');
+        const reservationKey = 'wayfarer-reservations-v1';
+        const money = amount => `KSh ${new Intl.NumberFormat('en-KE', { maximumFractionDigits: 0 }).format(amount)}`;
+        let activeFilter = 'all';
+        let selectedCar = null;
+
+        function getReservations() {
+            try {
+                return JSON.parse(localStorage.getItem(reservationKey) || '[]');
+            } catch {
+                return [];
+            }
+        }
+
+        function endDate(startDate, duration) {
+            const date = new Date(`${startDate}T00:00:00Z`);
+            date.setUTCDate(date.getUTCDate() + duration);
+            return date.toISOString().slice(0, 10);
+        }
+
+        function isBooked(car, startDate, duration) {
+            const requestedEnd = endDate(startDate, duration);
+            return getReservations().some(reservation => reservation.carName === car.name && startDate < reservation.endDate && requestedEnd > reservation.startDate);
+        }
+
+        function renderCars() {
+            const days = Math.min(30, Math.max(1, Number(dayInput.value) || 1));
+            dayInput.value = days;
+            const startDate = dateInput.value;
+            let visibleCars = cars.filter(car => activeFilter === 'all' || car.type === activeFilter);
+            const sort = document.getElementById('sort').value;
+            if (sort === 'price-low') visibleCars = [...visibleCars].sort((a, b) => a.rate - b.rate);
+            if (sort === 'price-high') visibleCars = [...visibleCars].sort((a, b) => b.rate - a.rate);
+            grid.innerHTML = visibleCars.map((car, index) => {
+                const carIndex = cars.indexOf(car);
+                const image = `https://images.unsplash.com/${car.image}?auto=format&fit=crop&w=900&q=82`;
+                const available = !isBooked(car, startDate, days);
+                return `<article class="car-card" style="--card-order:${index}">
+                    <div class="car-image-wrap"><img class="car-image" src="${image}" alt="${car.color} ${car.name}" loading="lazy">${car.badge ? `<span class="car-badge">${car.badge}</span>` : ''}<span class="car-type">${car.type}</span></div>
+                    <div class="car-details"><div class="car-title-row"><div><h3>${car.name}</h3><p class="car-meta">${car.transmission} <span>·</span> ${car.seats} seats</p></div><span class="rating">★ 4.9</span></div>
+                    <div class="price-row"><div><strong>${money(car.rate)}</strong><span> / day</span><p class="trip-total">${money(car.rate * days)} total · ${days} ${days === 1 ? 'day' : 'days'}</p><p class="availability-status ${available ? 'is-available' : 'is-booked'}">${available ? 'Available' : 'Booked'} for these dates</p></div><button class="select-car" data-car="${carIndex}" aria-label="${available ? 'Choose' : 'Unavailable'} ${car.name}" ${available ? '' : 'disabled'}>${available ? 'Choose' : 'Unavailable'} ${available ? '<span>→</span>' : ''}</button></div></div>
+                </article>`;
+            }).join('');
+            document.getElementById('result-count').textContent = `${visibleCars.length} ${visibleCars.length === 1 ? 'car' : 'cars'} ready for the road`;
+            grid.querySelectorAll('.select-car').forEach(button => button.addEventListener('click', () => openBooking(cars[Number(button.dataset.car)])));
+        }
+
+        function openBooking(car) {
+            const days = Math.min(30, Math.max(1, Number(dayInput.value) || 1));
+            if (isBooked(car, dateInput.value, days)) {
+                renderCars();
+                return;
+            }
+            selectedCar = car;
+            document.getElementById('booking-car').innerHTML = `<img src="https://images.unsplash.com/${car.image}?auto=format&fit=crop&w=320&q=80" alt=""><div><strong>${car.name}</strong><span>${car.transmission} · ${car.seats} seats · ${money(car.rate)} / day</span></div>`;
+            document.getElementById('booking-dates').textContent = `Pick-up ${dateInput.value} · Return ${endDate(dateInput.value, days)}`;
+            document.getElementById('booking-days').textContent = `${days} ${days === 1 ? 'day' : 'days'} × ${money(car.rate)} per day`;
+            document.getElementById('booking-total').textContent = money(car.rate * days);
+            document.getElementById('reservation-form').hidden = false;
+            document.getElementById('booking-confirmation').hidden = true;
+            document.getElementById('booking-error').hidden = true;
+            document.getElementById('booking-dialog').showModal();
+        }
+
+        document.querySelectorAll('.filter-button').forEach(button => button.addEventListener('click', () => {
+            document.querySelector('.filter-button.active').classList.remove('active');
+            button.classList.add('active');
+            activeFilter = button.dataset.filter;
+            renderCars();
+        }));
+        dayInput.addEventListener('input', renderCars);
+        dateInput.addEventListener('input', renderCars);
+        document.getElementById('days-minus').addEventListener('click', () => { dayInput.value = Math.max(1, Number(dayInput.value) - 1); renderCars(); });
+        document.getElementById('days-plus').addEventListener('click', () => { dayInput.value = Math.min(30, Number(dayInput.value) + 1); renderCars(); });
+        document.getElementById('sort').addEventListener('change', renderCars);
+        document.getElementById('search-form').addEventListener('submit', event => { event.preventDefault(); document.getElementById('fleet').scrollIntoView({ behavior: 'smooth' }); });
+        document.getElementById('dialog-close').addEventListener('click', () => document.getElementById('booking-dialog').close());
+        document.getElementById('booking-dialog').addEventListener('click', event => { if (event.target === event.currentTarget) event.currentTarget.close(); });
+        document.getElementById('reservation-form').addEventListener('submit', event => {
+            event.preventDefault();
+            const days = Math.min(30, Math.max(1, Number(dayInput.value) || 1));
+            const startDate = dateInput.value;
+            const error = document.getElementById('booking-error');
+            if (!selectedCar || isBooked(selectedCar, startDate, days)) {
+                error.textContent = 'This car is no longer available for those dates. Please choose another car or date.';
+                error.hidden = false;
+                renderCars();
+                return;
+            }
+            const formData = new FormData(event.currentTarget);
+            const reservation = {
+                reference: `WF-${Date.now().toString(36).toUpperCase()}`,
+                carName: selectedCar.name,
+                startDate,
+                endDate: endDate(startDate, days),
+                name: formData.get('customer-name'),
+                phone: formData.get('customer-phone'),
+                paymentMethod: formData.get('payment-method'),
+                amount: selectedCar.rate * days,
+                createdAt: new Date().toISOString()
+            };
+            localStorage.setItem(reservationKey, JSON.stringify([...getReservations(), reservation]));
+            const paymentText = reservation.paymentMethod === 'mpesa'
+                ? ` M-Pesa selected: send ${money(reservation.amount)} to 0792386196 after checking the number and amount. Payment is not verified here.`
+                : ' Pay on pick-up selected.';
+            document.getElementById('confirmation-copy').textContent = `Reference ${reservation.reference}: ${selectedCar.name}, ${startDate} to ${reservation.endDate}.${paymentText}`;
+            event.currentTarget.hidden = true;
+            document.getElementById('booking-confirmation').hidden = false;
+            renderCars();
+        });
+        document.getElementById('confirmation-done').addEventListener('click', () => document.getElementById('booking-dialog').close());
+        window.addEventListener('storage', event => { if (event.key === reservationKey) renderCars(); });
+        const tomorrow = new Date(); tomorrow.setDate(tomorrow.getDate() + 1);
+        document.getElementById('start-date').min = tomorrow.toISOString().slice(0, 10);
+        document.getElementById('start-date').value = tomorrow.toISOString().slice(0, 10);
+        renderCars();
+    </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
